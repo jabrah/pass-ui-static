@@ -13,7 +13,7 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
 </head>
 
-<body data-gr-c-s-loaded="true" class="ember-application">
+<body data-gr-c-s-loaded="true">
 
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
@@ -23,28 +23,26 @@
   <script type="text/javascript" src="https://unpkg.com/sweetalert2@7.17.0/dist/sweetalert2.all.js"></script>
   <div id="ember-basic-dropdown-wormhole"></div>
   <div id="modal-overlays"></div>
-  <div id="ember335" class="ember-view">
+  <div>
     <div style="z-index:0;" class="site">
       <header class="primary-skin navbar navbar-expand-xs justify-content-center mb-0">
         <div class="container">
-          <a href="index.html" id="ember363" class="navbar-brand custom-color d-none d-sm-block active ember-view">
-            <h3 class="font-weight-light">
-                       Public Access Submission System
-                    </h3>
+          <a href="index.html" class="navbar-brand custom-color d-none d-sm-block active">
+            <h3 class="font-weight-light">Public Access Submission System</h3>
           </a>
-          <a href="/welcome" id="ember370" class="navbar-brand custom-color d-xs-block d-sm-none active ember-view">
+          <a href="/welcome" class="navbar-brand custom-color d-xs-block d-sm-none active">
             <h3 class="font-weight-light">P.A.S.S.</h3>
           </a>
           <a href="https://jhu.edu"><img src="img/fullSizeLogo.png" alt="Logo" class="nav-item d-sm-down-none pull-right jhu-logo pr-0"></a>
         </div>
       </header>
       <div style="z-index:10000;">
-        <div id="ember371" class="sticky-element-container ember-view">
-          <div id="ember378" class="sticky-element__trigger sticky-element__trigger--top ember-view"></div>
+        <div class="sticky-element-container">
+          <div class="sticky-element__trigger sticky-element__trigger--top"></div>
           <div class="
                     sticky-element
                     ">
-            <div id="ember383" class="ember-view">
+            <div>
               <nav style="background: white;" id="myHeader" class="navbar navbar-light navbar-expand-md w-100">
                 <div class="container">
                   <div style="width:100%;" class="col-xs-12">
@@ -53,10 +51,10 @@
                                 </button>
                     <div id="navbarSupportedContent" class="collapse navbar-collapse">
                       <ul style="width:100%" class="navbar-nav">
-                        <li class="nav-item"><a href="/" id="ember388" class="nav-link pl-0 ml-0 ember-view">Dashboard</a></li>
-                        <li class="nav-item"><a href="/about" id="ember433" class="nav-link ember-view">About</a></li>
-                        <li class="nav-item"><a href="/contact" id="ember438" class="nav-link ember-view">Contact</a></li>
-                        <li class="nav-item"><a href="/faq" id="ember443" class="nav-link ember-view">FAQ</a></li>
+                        <li class="nav-item"><a href="app/" class="nav-link pl-0 ml-0">Dashboard</a></li>
+                        <li class="nav-item"><a href="/about" class="nav-link">About</a></li>
+                        <li class="nav-item"><a href="/contact" class="nav-link">Contact</a></li>
+                        <li class="nav-item"><a href="/faq" class="nav-link">FAQ</a></li>
                         <li class="nav-item dropdown ml-auto">
                           <!-- <a data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false" class="nav-link accountInfo pr-1">
                                          <span class="pr-1"><img width="30" height="30" title="nihuser@jhu.edu" alt="nihuser@jhu.edu" src="https://www.gravatar.com/avatar/979678d4529fb62a12251478bb1fab7b?s=60&amp;d=identicon" id="ember444" class="img-avatar gravatar-image ember-view">
@@ -170,16 +168,16 @@
               <p class="font-weight-light mt-4">
                 Use PASS to submit your manuscripts to funder and institutional publication repositories (e.g. PubMed Central, JScholarship) and comply with access policies. Using the web-based PASS system, you can: avoid paying article processing charges to make your
                 publication open to the public, simultaneously send your manuscript to multiple repositories seamlessly, and populate forms automatically with publication and author information by providing DOIs and ORCID IDs. <a href="/about"
-                  id="ember653" class="ember-view">Learn more about PASS?</a>
+                >Learn more about PASS?</a>
               </p>
-              <a href="/" id="ember654" class="btn btn-primary mt-1 pl-4 pr-4 ember-view">Get started!</a>
+              <a href="app/" class="btn btn-primary mt-1 pl-4 pr-4">Get started!</a>
             </div>
           </div>
         </div>
         <h2 class="font-weight-light mt-4 text-center m-4">
                PASS supports existing submission workflows for the following agencies and institutions
              </h2>
-        <div id="ember655" class="row mb-4 padding-lr-100 ember-view">
+        <div class="row mb-4 padding-lr-100">
           <div class="col-md-6 col-lg-3">
             <div id="slideOne" data-interval="5000" data-ride="carousel" class="carousel slide auto">
               <ol class="carousel-indicators">
@@ -304,14 +302,14 @@
           </div>
         </div>
         <div class="w-100 text-center">
-          <a href="faq#supported-policies" class="btn btn-link mt-1 pl-4 pr-4 ember-view">See full list of policies supported by PASS here</a>
+          <a href="faq.html#supported-policies" class="btn btn-link mt-1 pl-4 pr-4">See full list of policies supported by PASS here</a>
         </div>
 
       </div>
       <footer class="app-footer justify-content-center mt-3">
         <div class="text-center p-1">
           <small>Interested in making PASS even better? Want to have PASS for your institution?
-                 <a href="/contact" id="ember449" class="ember-view">Contact us</a>!</small>
+                 <a href="contact.html">Contact us</a>!</small>
           <br>
           <small>rev. 2830c25f</small>
         </div>
