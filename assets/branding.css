@@ -89,8 +89,10 @@ a:hover, .btn-link:hover {
 
 /* Buttons */
 .btn-primary {
-  background-color: var(--jhu-secondary-5);
-  border-color: var(--jhu-secondary-5);
+  /* background-color: var(--jhu-secondary-5);
+  border-color: var(--jhu-secondary-5); */
+  background-color: #418FDE !important;
+  border-color: #418FDE !important;
   color:white;
 }
 .btn-primary:hover {
@@ -106,12 +108,16 @@ a:hover, .btn-link:hover {
 }
 
 .btn-outline-primary {
-  border-color: var(--jhu-secondary-5);
-  color: var(--jhu-secondary-5);
+  /* border-color: var(--jhu-secondary-5);
+  color: var(--jhu-secondary-5); */
+  background-color: #418FDE !important;
+  border-color: #418FDE !important;
 }
 .btn-outline-primary:hover {
-  background-color: var(--jhu-secondary-5);
-  border-color: var(--jhu-secondary-5);
+  /* background-color: var(--jhu-secondary-5);
+  border-color: var(--jhu-secondary-5); */
+  background-color: #418FDE !important;
+  border-color: #418FDE !important;
 }
 .btn-outline-primary:not(:disabled):not(.disabled):active {
   background-color: var(--jhu-accent-10);
@@ -141,7 +147,8 @@ a:hover, .btn-link:hover {
   /* background-color: var(--jhu-blue-spirit); */
 }
 #brand-header {
-  background-color: var(--jhu-blue-heritage);
+  /* background-color: var(--jhu-blue-heritage); */
+  background-color: #005EB8;
   color: var(--jhu-blue-spirit);
 }
 #brand-header-title {
